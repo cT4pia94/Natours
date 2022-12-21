@@ -4,7 +4,8 @@
   "description": "Landing page for natours",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -watch"
+    "sass": "sass",
+    "sass:watch": "sass --watch sass/main.scss css/style.css"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/cT4pia94/Natours#readme",
   "devDependencies": {
-    "node-sass": "^8.0.0"
+    "node-sass": "^8.0.0",
+    "sass": "^1.57.1"
   }
 }
